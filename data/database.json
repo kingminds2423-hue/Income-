@@ -1,0 +1,139 @@
+{
+  "company": {
+    "name": "DIP BHOLA NETWORK",
+    "subTitle": "দৈনিক আয়-ব্যয় ও কেন্দ্রীয় স্টাফ মনিটরিং সিস্টেম",
+    "ownerName": "জাহিদুল ইসলাম",
+    "phone": "01712-345678",
+    "email": "zahidulislam53330@gmail.com",
+    "address": "ভোলা, বাংলাদেশ",
+    "logoUrl": "/dip-bhola-logo.svg",
+    "currencySymbol": "৳"
+  },
+  "adminAuth": {
+    "pin": "1234",
+    "phone": "01700000000"
+  },
+  "staffs": [
+    {
+      "id": "staff-1",
+      "name": "মোঃ তানভীর আহমেদ",
+      "fatherName": "মোঃ আব্দুল জলিল",
+      "motherName": "মোসাঃ তহমিনা খাতুন",
+      "phone": "01811223344",
+      "email": "tanvir@gmail.com",
+      "nid": "19952691234567890",
+      "address": "গ্রাম: চরপাড়া, ডাকঘর: ফুলপুর, ময়মনসিংহ",
+      "designation": "প্রধান সেলস অফিসার",
+      "salary": 22000,
+      "joinedAt": "2025-01-15",
+      "photoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop&crop=faces",
+      "pin": "1122",
+      "role": "staff",
+      "education": "বি.বি.এস (অনার্স), মার্কেটিং",
+      "emergencyContact": "01799887766 (বড় ভাই)",
+      "bloodGroup": "B+",
+      "status": "active"
+    },
+    {
+      "id": "staff-2",
+      "name": "মোঃ শাকিল হোসেন",
+      "fatherName": "মোঃ রফিকুল ইসলাম",
+      "motherName": "মোসাঃ রেনুয়ারা বেগম",
+      "phone": "01922334455",
+      "email": "shakil@gmail.com",
+      "nid": "19985012345678912",
+      "address": "রোড-০৪, সেক্টর-০৯, উত্তরা, ঢাকা",
+      "designation": "হিসাব সহকারী ও ক্যাশিয়ার",
+      "salary": 18000,
+      "joinedAt": "2025-03-01",
+      "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=faces",
+      "pin": "2233",
+      "role": "staff",
+      "education": "এইচএসসি (বাণিজ্য বিভাগ)",
+      "emergencyContact": "01877665544 (বাবা)",
+      "bloodGroup": "O+",
+      "status": "active"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1",
+      "type": "income",
+      "date": "2026-11-02",
+      "title": "নগদ কাউন্টার বিক্রয়",
+      "category": "পণ্য বিক্রয়",
+      "amount": 14500,
+      "paymentMethod": "cash",
+      "addedBy": "মোঃ তানভীর আহমেদ",
+      "addedById": "staff-1",
+      "note": "সকাল ১০টা থেকে দুপুর ২টা পর্যন্ত ক্যাশ কাউন্টার বিক্রয়",
+      "createdAt": "2026-11-02T15:46:22.094Z"
+    },
+    {
+      "id": "tx-2",
+      "type": "income",
+      "date": "2026-11-02",
+      "title": "বিকাশ পেমেন্ট গ্রহণ (চালান #১০২)",
+      "category": "পণ্য বিক্রয়",
+      "amount": 4200,
+      "paymentMethod": "bkash",
+      "addedBy": "মোঃ শাকিল হোসেন",
+      "addedById": "staff-2",
+      "note": "কাস্টমার বিকাশ মার্চেন্ট নম্বরে পে করেছে",
+      "createdAt": "2026-11-02T15:46:22.094Z"
+    },
+    {
+      "id": "tx-3",
+      "type": "expense",
+      "date": "2026-11-02",
+      "title": "দোকান আপ্যায়ন ও চা-নাস্তা খরচ",
+      "category": "আপ্যায়ন ও নাস্তা খরচ",
+      "amount": 450,
+      "paymentMethod": "cash",
+      "addedBy": "মোঃ তানভীর আহমেদ",
+      "addedById": "staff-1",
+      "note": "মেহমান ও স্টাফদের বিকেলের নাস্তা",
+      "createdAt": "2026-11-02T15:46:22.094Z"
+    },
+    {
+      "id": "tx-4",
+      "type": "expense",
+      "date": "2026-11-02",
+      "title": "কুরিয়ার ও পার্সেল বুকিং চার্জ",
+      "category": "যাতায়াত ও ডেলিভারি খরচ",
+      "amount": 850,
+      "paymentMethod": "cash",
+      "addedBy": "মোঃ শাকিল হোসেন",
+      "addedById": "staff-2",
+      "note": "সুন্দরবন কুরিয়ারে মালামাল বুকিং",
+      "createdAt": "2026-11-02T15:46:22.094Z"
+    }
+  ],
+  "customerDues": [
+    {
+      "id": "due-1",
+      "customerName": "মেসার্স ভাই ভাই স্টোর (আলমগীর ভাই)",
+      "phone": "01711998877",
+      "address": "চকবাজার, ঢাকা",
+      "totalDue": 15000,
+      "paidAmount": 5000,
+      "remainingDue": 10000,
+      "lastUpdated": "2026-11-02",
+      "notes": "আগামী সপ্তাহে বাকি টাকা পরিশোধ করবেন",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "amount": 15000,
+          "type": "due",
+          "note": "পণ্য বাকি ক্রয় চালান #৪৫"
+        },
+        {
+          "date": "2026-11-02",
+          "amount": 5000,
+          "type": "payment",
+          "note": "নগদ জমা দেওয়া হয়েছে"
+        }
+      ]
+    }
+  ]
+}
